@@ -2,6 +2,13 @@
 
 # JavSP WEB
 
+> ### 📢 本仓库说明
+> 本项目为 **AI 辅助修改版**，基于 [APecme/JavSP-Web](https://github.com/APecme/JavSP-Web)（原项目）的源代码，使用豆包 AI 进行了二次开发。
+>
+> - **原项目地址**：https://github.com/APecme/JavSP-Web
+> - **修改内容**：新增 `{oldname}` 命名变量（记录识别番号时的原始文件名），详见下文。
+> - **许可**：遵循原项目 GPL-3.0 许可，所有版权归原作者所有。
+
 **JavSP 的 Web 控制台**
 
 JavSP WEB 基于 [JavSP](https://github.com/Yuukiy/JavSP)，用于从影片文件名识别番号、汇总多个站点的影片数据并生成媒体库可用的元数据。它提供浏览器界面，用于启动刮削、查看任务进度、管理配置预设，以及连接下载器和媒体服务器。
