@@ -44,7 +44,7 @@ JavSP WEB 基于 [JavSP](https://github.com/Yuukiy/JavSP)，用于从影片文�
 | 横版海报 | `{oldname}-fanart` |
 | 影片文件 | `{oldname} [{num}]` |
 
-**效果**：原文件 `ABP-954.mp4` → 输出 `ABP-954-poster.jpg`、`ABP-954-fanart.jpg`
+**效果**：原文件 `ABP-954 testabc.mp4` → 输出 `ABP-954 testabc-poster.jpg`、`ABP-954 testabc-fanart.jpg`（`oldname` = `ABP-954 testabc`）
 
 ## 安装并运行
 
