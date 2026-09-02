@@ -22,6 +22,23 @@ JavSP WEB 基于 [JavSP](https://github.com/Yuukiy/JavSP)，用于从影片文�
 - [x] 连接 Emby 或 Jellyfin，在刮削完成后扫描媒体库。
 - [x] Windows 托盘程序、Docker 和浏览器访问。
 
+## 本项目新增功能：`{oldname}` 变量
+
+基于 [JavSP-Web](https://github.com/APecme/JavSP-Web) 额外增加了 `{oldname}` 命名变量：
+
+- **含义**：识别番号时使用的原始文件名（不含扩展名和路径）
+- **用途**：在刮削预设的命名规则中使用，保留原文件名作为输出文件名
+
+**示例**（在「刮削预设」的命名规则中填写）：
+
+| 用途 | 命名规则 |
+|---|---|
+| 竖版海报 | `{oldname}-poster` |
+| 横版海报 | `{oldname}-fanart` |
+| 影片文件 | `{oldname} [{num}]` |
+
+**效果**：原文件 `ABP-954.mp4` → 输出 `ABP-954-poster.jpg`、`ABP-954-fanart.jpg`
+
 ## 安装并运行
 
 ### Windows
